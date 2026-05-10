@@ -1,0 +1,19 @@
+{
+  "name": "faang-resume",
+  "version": "1.0.0",
+  "description": "Tailors an existing resume/LinkedIn to a specific FAANG SWE/SRE/ML job description. Enforces a strict 24-rule rulebook plus hard ATS and JD-match verification gates. Refuses to ship unless both gates pass.",
+  "author": {
+    "name": "faang-resume contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "resume",
+    "cv",
+    "ats",
+    "faang",
+    "swe",
+    "sre",
+    "ml",
+    "job-search"
+  ]
+}
