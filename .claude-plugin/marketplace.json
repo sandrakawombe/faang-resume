@@ -1,14 +1,17 @@
 {
   "name": "faang-resume-marketplace",
   "owner": {
-    "name": "faang-resume contributors"
+    "name": "sandrakawombe"
   },
   "description": "FAANG SWE/SRE/ML resume tailoring with hard ATS and JD-match verification gates.",
   "plugins": [
     {
       "name": "faang-resume",
-      "source": ".",
-      "description": "Tailor JD + existing resume → FAANG-grade output (markdown + ATS-safe DOCX/PDF + recruiter review). Strict 24-rule rulebook + hard verification gates.",
+      "source": {
+        "source": "github",
+        "repo": "sandrakawombe/faang-resume"
+      },
+      "description": "Tailor JD + existing resume to FAANG-grade output. Strict 24-rule rulebook + hard verification gates.",
       "version": "1.0.0",
       "category": "career",
       "tags": ["resume", "cv", "ats", "faang", "engineering"]
